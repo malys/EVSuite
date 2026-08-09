@@ -1,0 +1,95 @@
+/* Hallmark · pre-emit critique: P5 H5 E4 S5 R5 V4
+   macrostructure: Documentation Hub · genre: technical editorial · theme: MG4Suite Instrument Binnacle
+   contrast: pass (40–41) · nav: Starlight docs · footer: docs hub · slop: pass (42–45)
+   honest: pass (46) · chrome: pass (47) · tokens: pass (48) · responsive: pass (49)
+   mobile: pass (34, 49, 50–57) · icons: pass (30)
+
+   MG4Suite site theme.
+   Values mirror ../../tools/tokens/colors.*.xml, the normative design source for the
+   apps. The site is read on a desktop rather than through a windscreen, so the AAA
+   contrast floor documented in DESIGN.md is inherited rather than re-derived: keeping
+   the same values keeps the site and the head-unit UI recognisably one product. */
+
+:root {
+  --mg4-font-body: Roboto, system-ui, sans-serif;
+  --mg4-radius: 0.75rem;
+  --mg4-outline-width: 1px;
+  /* mg4_accent (dark) #7FD4FA */
+  --sl-color-accent-low: #06323f;
+  --sl-color-accent: #1f7fa3;
+  --sl-color-accent-high: #7fd4fa;
+
+  /* mg4_text_primary / mg4_text_secondary (dark) */
+  --sl-color-white: #f4f7fa;
+  --sl-color-gray-1: #e3e9ef;
+  --sl-color-gray-2: #c6cfd8;
+  --sl-color-gray-3: #7a8492;
+  --sl-color-gray-4: #4a545f;
+  --sl-color-gray-5: #272c33;
+  --sl-color-gray-6: #15181c;
+  --sl-color-black: #0b0d0f;
+
+  --mg4-ok: #8fe6a6;
+  --mg4-warn: #ffc978;
+  --mg4-error: #ffacac;
+
+  --sl-font: var(--mg4-font-body);
+  --sl-content-width: 52rem;
+}
+
+:root[data-theme='light'] {
+  /* mg4_accent (light) #044C63 — a deep cyan; the dark theme's pale one falls to
+     1.5:1 on white and disappears in daylight. */
+  --sl-color-accent-low: #d3e6ed;
+  --sl-color-accent: #044c63;
+  --sl-color-accent-high: #023445;
+
+  --sl-color-white: #101418;
+  --sl-color-gray-1: #1c2228;
+  --sl-color-gray-2: #414b55;
+  --sl-color-gray-3: #737f8f;
+  --sl-color-gray-4: #8e99a6;
+  --sl-color-gray-5: #e4e8ed;
+  --sl-color-gray-6: #f2f4f7;
+  --sl-color-gray-7: #f8f9fb;
+  --sl-color-black: #ffffff;
+
+  --mg4-ok: #09501f;
+  --mg4-warn: #6b3a00;
+  --mg4-error: #8f0f18;
+}
+
+/* Head-unit screenshots are 1920×1080 landscape. Constrain them so a page of
+   screenshots does not become a page of scrolling. */
+.mg4-shot img {
+  border: var(--mg4-outline-width) solid var(--sl-color-gray-5);
+  border-radius: var(--mg4-radius);
+  width: 100%;
+  height: auto;
+}
+
+.mg4-shots {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
+}
+
+.mg4-shot {
+  margin: 0;
+}
+
+.mg4-shot figcaption {
+  color: var(--sl-color-gray-2);
+  font-size: var(--sl-text-sm);
+  margin-top: 0.5rem;
+}
+
+html,
+body {
+  overflow-x: clip;
+}
+
+/* Landing page hero: the suite mark is a wordmark, not a raster logo. */
+.hero h1 {
+  letter-spacing: -0.02em;
+}

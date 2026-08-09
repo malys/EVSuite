@@ -1,0 +1,29 @@
+---
+title: MG4 Tasker
+description: Local rule automation built on the shared MG4Hardware catalogue.
+---
+
+import rules from '../../../assets/screenshots/tasker-rules.png';
+import detail from '../../../assets/screenshots/tasker-rule-detail.png';
+import config from '../../../assets/screenshots/tasker-config.png';
+
+[Source code](https://github.com/malys/MG4Tasker) · [Releases](https://github.com/malys/MG4Tasker/releases) · [Issue tracker](https://github.com/malys/MG4Tasker/issues)
+
+MG4 Tasker runs local rules on the head unit: conditions trigger actions, branches, delays,
+notifications, app launches, or supported vehicle changes. It does not need MG4 Control
+unless a rule applies a profile saved there.
+
+<div class="mg4-shots">
+  <figure class="mg4-shot"><img src={rules.src} alt="MG4 Tasker rules list on the Automotive emulator" /><figcaption>Rules and their enabled state</figcaption></figure>
+  <figure class="mg4-shot"><img src={detail.src} alt="MG4 Tasker rule editor showing conditions and actions" /><figcaption>A readable rule sequence</figcaption></figure>
+  <figure class="mg4-shot"><img src={config.src} alt="MG4 Tasker configuration screen" /><figcaption>Local service configuration</figcaption></figure>
+</div>
+
+## Rule model
+
+A rule has a trigger and one or more conditions and actions. The shared MG4Hardware
+catalogue supplies vehicle-aware entries and filters them by firmware. Expert mode reveals
+advanced composition without making the default editor busier.
+
+Start with [Write your first rule](/MG4Suite/tutorial/first-rule/). Test it while parked,
+inspect its execution history, and only then enable it for normal use.

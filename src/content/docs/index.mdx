@@ -1,0 +1,45 @@
+---
+title: MG4Suite
+description: A focused set of optional applications for the SAIC MG4 infotainment system.
+template: splash
+hero:
+  tagline: Safer controls, useful automation, live route telemetry, and faster navigation for the SAIC MG4 head unit.
+  actions:
+    - text: Explore the suite
+      link: /MG4Suite/start/overview/
+      icon: right-arrow
+      variant: primary
+    - text: Install safely
+      link: /MG4Suite/start/safety/
+      icon: open-book
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+MG4Suite is not one monolithic app. It is a family of small, independently installable
+projects with one safety policy, one visual language, and one shared vehicle-access layer.
+
+<CardGrid>
+  <Card title="Control" icon="setting">
+    Change supported vehicle settings and save reusable driving profiles.
+  </Card>
+  <Card title="Tasker" icon="seti:settings">
+    Build local rules from vehicle conditions and carefully gated actions.
+  </Card>
+  <Card title="ABRP telemetry" icon="rocket">
+    Send read-only vehicle telemetry to A Better Routeplanner.
+  </Card>
+  <Card title="Launchers" icon="menu">
+    Replace the home screen or open a chosen app with a bottom-edge swipe.
+  </Card>
+</CardGrid>
+
+## Built for one environment
+
+The suite targets the MG4 infotainment system: Android Automotive OS 9 on MT2712, in a
+landscape 1920×720 application area. Vehicle-writing apps refuse road-behaviour changes
+unless speed is confirmed at 0 km/h. The launchers do not access the vehicle at all.
+
+> MG4Suite is an independent community project. It is not affiliated with SAIC Motor or
+> MG Motor. Installing third-party software on a vehicle is at your own risk.
