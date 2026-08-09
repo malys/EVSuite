@@ -7,19 +7,19 @@ description: Open a chosen app from a bottom-edge swipe gesture.
 
 [Source code](https://github.com/malys/MG4SwipeLauncher) · [Releases](https://github.com/malys/MG4SwipeLauncher/releases) · [Issue tracker](https://github.com/malys/MG4SwipeLauncher/issues)
 
-MG4 Swipe Launcher provides two bottom-edge swipe areas. One performs Back and the other
-opens a chosen application, with an option to swap the sides. It pairs naturally with MG4
-Simple Launcher but can target another app.
+Choose MG4 Swipe Launcher when you want a bottom-edge gesture to open a favourite app. A
+second gesture performs Back, and you can swap the two sides.
 
-The app uses Android accessibility and overlay capabilities, but no vehicle interface.
-Because the stock steering-wheel key broadcast is not authenticated, MG4Suite does not
-treat it as a trusted control channel.
+The app needs Android accessibility and overlay access to recognise the gesture and perform
+Back. It does not read or change vehicle settings.
 
-## Configure deliberately
+## What you can configure
 
 - Choose the target application.
 - Decide whether Back belongs on the left or right.
 - Keep the visible swipe labels until the layout is familiar.
 - Do not use an overlay while the vehicle is moving.
 
-See [Replace the home screen](/MG4Suite/tutorial/launchers/) for the combined launcher setup.
+It works with any chosen app and pairs well with MG4 Simple Launcher.
+
+Next: [set up the swipe shortcuts](/MG4Suite/tutorial/launchers/#swipe-launcher).

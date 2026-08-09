@@ -1,7 +1,10 @@
 ---
-title: 3. Set up ABRP telemetry
+title: Connect ABRP
 description: Connect MG4 ABRP Uploader to your own A Better Routeplanner vehicle.
 ---
+
+Use this guide after installing MG4 ABRP Uploader. You need an ABRP account and an MG4
+vehicle configured in A Better Routeplanner.
 
 1. Create or select your MG4 in A Better Routeplanner.
 2. In ABRP, obtain the live-data token for that vehicle.

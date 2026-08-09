@@ -3,9 +3,9 @@ title: MG4Suite
 description: A focused set of optional applications for the SAIC MG4 infotainment system.
 template: splash
 hero:
-  tagline: Safer controls, useful automation, live route telemetry, and faster navigation for the SAIC MG4 head unit.
+  tagline: Choose the features you want for your MG4 screen, then follow a guide to install and use them safely.
   actions:
-    - text: Explore the suite
+    - text: Choose your apps
       link: /MG4Suite/start/overview/
       icon: right-arrow
       variant: primary
@@ -15,31 +15,23 @@ hero:
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-MG4Suite is not one monolithic app. It is a family of small, independently installable
-projects with one safety policy, one visual language, and one shared vehicle-access layer.
+MG4Suite is a collection of independent apps. Install only the ones that solve a problem
+for you; you do not need the complete suite.
 
 <CardGrid>
-  <Card title="Control" icon="setting">
-    Change supported vehicle settings and save reusable driving profiles.
-  </Card>
-  <Card title="Tasker" icon="seti:settings">
-    Build local rules from vehicle conditions and carefully gated actions.
-  </Card>
-  <Card title="ABRP telemetry" icon="rocket">
-    Send read-only vehicle telemetry to A Better Routeplanner.
-  </Card>
-  <Card title="Launchers" icon="menu">
-    Replace the home screen or open a chosen app with a bottom-edge swipe.
-  </Card>
+  <LinkCard title="Change vehicle settings" href="/MG4Suite/apps/control/" description="Use MG4 Control to adjust supported settings and save combinations as profiles." />
+  <LinkCard title="Automate repeated actions" href="/MG4Suite/apps/tasker/" description="Use MG4 Tasker to run an action when a local condition is met." />
+  <LinkCard title="Send live data to ABRP" href="/MG4Suite/apps/abrp/" description="Use MG4 ABRP Uploader to improve route and charging estimates in A Better Routeplanner." />
+  <LinkCard title="Make apps easier to reach" href="/MG4Suite/apps/simple-launcher/" description="Use Simple Launcher for a new home screen and Swipe Launcher for bottom-edge shortcuts." />
 </CardGrid>
 
-## Built for one environment
+## Start in three steps
 
-The suite targets the MG4 infotainment system: Android Automotive OS 9 on MT2712, in a
-landscape 1920×720 application area. Vehicle-writing apps refuse road-behaviour changes
-unless speed is confirmed at 0 km/h. The launchers do not access the vehicle at all.
+1. [Choose the apps that match your needs](/MG4Suite/start/overview/).
+2. [Read the safety information](/MG4Suite/start/safety/).
+3. [Open Android Settings](/MG4Suite/tutorial/settings-access/) and follow the installation guide.
 
 > MG4Suite is an independent community project. It is not affiliated with SAIC Motor or
 > MG Motor. Installing third-party software on a vehicle is at your own risk.

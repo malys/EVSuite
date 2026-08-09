@@ -7,11 +7,11 @@ description: Read-only telemetry for A Better Routeplanner.
 
 [Source code](https://github.com/malys/MG4AbrpUploader) · [Releases](https://github.com/malys/MG4AbrpUploader/releases) · [Issue tracker](https://github.com/malys/MG4AbrpUploader/issues)
 
-MG4 ABRP Uploader reads available vehicle and location signals and sends them to A Better
-Routeplanner. It never writes vehicle settings. Unavailable values are omitted rather than
-reported as zero.
+Choose MG4 ABRP Uploader when you use A Better Routeplanner and want it to receive live data
+from the car. The app reads telemetry and location, sends available values to ABRP, and
+never changes a vehicle setting.
 
-## Telemetry
+## What ABRP can receive
 
 Depending on firmware and available AAOS properties, payloads can include state of charge,
 estimated range, speed, outside temperature, charging state and rate, cabin temperature,
@@ -23,4 +23,7 @@ ABRP telemetry is the suite's intentional network-facing function. Review the pr
 privacy documentation, use your own ABRP token, and disable the service when you no longer
 want live telemetry sent.
 
-Continue with [Set up ABRP telemetry](/MG4Suite/tutorial/abrp/).
+## Get started
+
+1. [Install the APK](/MG4Suite/tutorial/sideload/).
+2. [Connect the app to your ABRP vehicle](/MG4Suite/tutorial/abrp/).

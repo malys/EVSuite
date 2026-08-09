@@ -1,7 +1,10 @@
 ---
-title: 2. Sideload an APK
+title: Install an APK
 description: Transfer and install a signed MG4Suite release while parked.
 ---
+
+Use this guide after you can [open Android Settings](/MG4Suite/tutorial/settings-access/).
+You need the stable APK from the selected application's GitHub Releases page and a USB drive.
 
 1. Open the application's GitHub **Releases** page on another trusted device.
 2. Choose the stable APK unless you explicitly want a pre-release test build.

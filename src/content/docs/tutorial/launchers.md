@@ -1,7 +1,11 @@
 ---
-title: 5. Replace the home screen
+title: Set up the launchers
 description: Configure MG4 Simple Launcher and the optional swipe shortcut safely.
 ---
+
+MG4 Simple Launcher and MG4 Swipe Launcher solve different problems. Simple Launcher
+replaces the Home screen; Swipe Launcher adds bottom-edge shortcuts. You can install either
+one by itself or use them together.
 
 ## Simple Launcher
 

@@ -1,5 +1,5 @@
 ---
-title: 4. Write your first rule
+title: Create your first rule
 description: Build and test a small MG4 Tasker rule without changing a safety system.
 ---
 

@@ -7,11 +7,10 @@ description: A landscape-first replacement home screen for the MG4 head unit.
 
 [Source code](https://github.com/malys/MG4SimpleLauncher) · [Releases](https://github.com/malys/MG4SimpleLauncher/releases) · [Issue tracker](https://github.com/malys/MG4SimpleLauncher/issues)
 
-MG4 Simple Launcher replaces the stock home surface with large favourite tiles, an all-apps
-drawer, shortcuts to Files and Settings, and a second system-information page. It does not
-read or write vehicle properties.
+Choose MG4 Simple Launcher when you want the Home button to open a simple grid of your
+favourite apps. It does not read or change vehicle settings.
 
-## Highlights
+## What you can do
 
 - Up to 12 configurable favourite apps
 - Responsive tile rows sized for the wide head-unit display
@@ -19,6 +18,10 @@ read or write vehicle properties.
 - MG4Suite app detection and update overview on unstable builds
 - Persistent favourites and an explicit path back to Android settings
 
-Replacing the home app changes a fundamental navigation path. Before selecting it as the
-default, confirm that Files, Settings, and the stock launcher remain reachable. See
-[Replace the home screen](/MG4Suite/tutorial/launchers/).
+## What to expect
+
+Android will ask which app should handle the Home button. Keep the stock launcher installed
+and confirm that Files and Settings remain reachable before making Simple Launcher the
+default.
+
+Next: [set up MG4 Simple Launcher](/MG4Suite/tutorial/launchers/).

@@ -1,5 +1,5 @@
 ---
-title: 1. Get into Android Settings
+title: Open Android Settings
 description: Reach the hidden Android settings panel from the stock head-unit interface.
 ---
 
@@ -7,6 +7,9 @@ description: Reach the hidden Android settings panel from the stock head-unit in
 Park the vehicle before starting. Menu names can differ by firmware; stop if your screen
 does not match rather than guessing.
 :::
+
+The MG4 home screen does not provide a normal shortcut to all Android settings. This route
+uses the on-screen keyboard to reach them before installing an APK.
 
 1. Open an application with a text field and show the on-screen keyboard. The Amazon Music
    email or login field is one known route.

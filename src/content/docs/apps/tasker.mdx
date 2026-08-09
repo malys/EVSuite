@@ -9,9 +9,8 @@ import config from '../../../assets/screenshots/tasker-config.png';
 
 [Source code](https://github.com/malys/MG4Tasker) · [Releases](https://github.com/malys/MG4Tasker/releases) · [Issue tracker](https://github.com/malys/MG4Tasker/issues)
 
-MG4 Tasker runs local rules on the head unit: conditions trigger actions, branches, delays,
-notifications, app launches, or supported vehicle changes. It does not need MG4 Control
-unless a rule applies a profile saved there.
+Choose MG4 Tasker when you want the head unit to perform an action automatically. A rule
+describes when something should happen and what the app should do.
 
 <div class="mg4-shots">
   <figure class="mg4-shot"><img src={rules.src} alt="MG4 Tasker rules list on the Automotive emulator" /><figcaption>Rules and their enabled state</figcaption></figure>
@@ -19,11 +18,19 @@ unless a rule applies a profile saved there.
   <figure class="mg4-shot"><img src={config.src} alt="MG4 Tasker configuration screen" /><figcaption>Local service configuration</figcaption></figure>
 </div>
 
-## Rule model
+## How a rule works
 
-A rule has a trigger and one or more conditions and actions. The shared MG4Hardware
-catalogue supplies vehicle-aware entries and filters them by firmware. Expert mode reveals
-advanced composition without making the default editor busier.
+A rule combines a trigger, optional conditions, and one or more actions. For example, a
+charging-state condition can show a notification. Advanced rules can branch, wait, open an
+app, speak a message, or change a supported vehicle setting.
+
+You can use Tasker without MG4 Control. Control is needed only when a rule applies a profile
+that was saved in Control.
+
+## What to expect
+
+Test a rule while parked before enabling it. Vehicle changes follow the same standstill
+safety checks as MG4 Control, and the history screen shows what ran or why it was refused.
 
 Start with [Write your first rule](/MG4Suite/tutorial/first-rule/). Test it while parked,
 inspect its execution history, and only then enable it for normal use.

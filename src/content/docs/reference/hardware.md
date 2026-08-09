@@ -1,5 +1,5 @@
 ---
-title: MG4Hardware
+title: MG4Hardware library
 description: Shared, firmware-aware vehicle access and safety policy for MG4 applications.
 ---
 
