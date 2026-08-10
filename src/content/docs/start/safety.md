@@ -18,10 +18,18 @@ setting change more seriously than an ordinary phone app.
 | Stable | No self-updater; install manually | Normal use after you have tested compatibility |
 | Unstable | Pre-release testing builds; updater may be present | Testers who accept regressions |
 
+Where both channels are offered, stable and unstable use different Android application IDs.
+Android therefore treats them as **two separate apps**: they can coexist, but permissions,
+rules, profiles, favourites, tokens, and other settings must be configured separately.
+
 Download APKs only from the project's own GitHub Releases page. Android accepts an update
 only when its signing certificate matches the installed app. A certificate or application
 ID migration may require uninstalling the old version first; read that project's release
 notes before upgrading.
+
+When moving from unstable to stable, install and configure stable first if you need to check
+or copy settings, then preferably uninstall unstable. Keeping both makes it easy to configure
+or launch the wrong copy. See [Switch between stable and unstable](/MG4Suite/tutorial/release-channels/).
 
 ## Vehicle-write policy
 

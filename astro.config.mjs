@@ -33,9 +33,12 @@ export default defineConfig({
         { label: 'How-to guides', items: [
           { label: 'Open Android Settings', slug: 'tutorial/settings-access' },
           { label: 'Install an APK', slug: 'tutorial/sideload' },
+          { label: 'Switch release channels', slug: 'tutorial/release-channels' },
           { label: 'Create a driving profile', slug: 'tutorial/control-profile' },
+          { label: 'Connect Control and Tasker', slug: 'tutorial/control-tasker' },
           { label: 'Connect ABRP', slug: 'tutorial/abrp' },
           { label: 'Create your first rule', slug: 'tutorial/first-rule' },
+          { label: 'Build advanced rules', slug: 'tutorial/tasker-rules' },
           { label: 'Set up the launchers', slug: 'tutorial/launchers' },
         ]},
         { label: 'Technical reference', items: [{ autogenerate: { directory: 'reference' } }] },

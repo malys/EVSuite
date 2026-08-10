@@ -35,3 +35,10 @@ is available on a particular car.
 3. [Install the APK on the head unit](/MG4Suite/tutorial/sideload/).
 4. Open Control while parked and review the detected firmware before changing a setting.
 5. [Create and test your first driving profile](/MG4Suite/tutorial/control-profile/).
+
+## Automation and shortcuts
+
+MG4 Control can hand a saved profile to MG4 Tasker, and can assign actions to short, long,
+or double presses of the steering-wheel star buttons. Follow
+[Connect MG4 Control and MG4 Tasker](/MG4Suite/tutorial/control-tasker/) to avoid duplicate
+startup automation and shortcut conflicts.

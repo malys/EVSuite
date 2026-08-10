@@ -7,6 +7,10 @@ MG4 Simple Launcher and MG4 Swipe Launcher solve different problems. Simple Laun
 replaces the Home screen; Swipe Launcher adds bottom-edge shortcuts. You can install either
 one by itself or use them together.
 
+When installing the suite, install **MG4 Swipe Launcher last**. On first launch it discovers
+an already-installed MG4 Simple Launcher automatically and selects it as the default swipe
+target. If stable and unstable copies coexist, verify which Simple Launcher copy is selected.
+
 ## Simple Launcher
 
 1. Install MG4 Simple Launcher and open it as an ordinary app first.
@@ -17,11 +21,13 @@ one by itself or use them together.
 
 ## Swipe Launcher
 
-1. Install MG4 Swipe Launcher.
-2. Grant only the accessibility and overlay access its setup screen requests.
-3. Select MG4 Simple Launcher—or another app—as the target.
-4. Test the Back and Open zones while parked.
-5. Swap the zones if their placement is not comfortable.
+1. Finish installing and configuring MG4 Simple Launcher and the other suite apps.
+2. Install MG4 Swipe Launcher last and open it.
+3. Confirm that it discovered MG4 Simple Launcher as the target. Select it manually if you
+   use another channel or want another app.
+4. Grant only the accessibility and overlay access its setup screen requests.
+5. Test the Back and Open zones while parked.
+6. Swap the zones if their placement is not comfortable.
 
 Do not show or interact with driver-facing overlays while moving. If the launcher layout,
 system bars, or swipe regions differ on your firmware, return to the stock launcher and

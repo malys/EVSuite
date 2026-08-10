@@ -26,4 +26,4 @@ want live telemetry sent.
 ## Get started
 
 1. [Install the APK](/MG4Suite/tutorial/sideload/).
-2. [Connect the app to your ABRP vehicle](/MG4Suite/tutorial/abrp/).
+2. [Add your API key and user token, then understand upload errors](/MG4Suite/tutorial/abrp/).
