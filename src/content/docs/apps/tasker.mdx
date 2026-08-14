@@ -1,21 +1,21 @@
 ---
-title: MG4 Tasker
-description: Local rule automation built on the shared MG4Hardware catalogue.
+title: EVTasker
+description: Local rule automation built on the shared EVHardware catalogue.
 ---
 
 import rules from '../../../assets/screenshots/tasker-rules.png';
 import detail from '../../../assets/screenshots/tasker-rule-detail.png';
 import config from '../../../assets/screenshots/tasker-config.png';
 
-[Source code](https://github.com/malys/MG4Tasker) · [Releases](https://github.com/malys/MG4Tasker/releases) · [Issue tracker](https://github.com/malys/MG4Tasker/issues)
+[Source code](https://github.com/malys/EVTasker) · [Releases](https://github.com/malys/EVTasker/releases) · [Issue tracker](https://github.com/malys/EVTasker/issues)
 
-Choose MG4 Tasker when you want the head unit to perform an action automatically. A rule
+Choose EVTasker when you want the head unit to perform an action automatically. A rule
 describes when something should happen and what the app should do.
 
 <div class="mg4-shots">
-  <figure class="mg4-shot"><img src={rules.src} alt="MG4 Tasker rules list on the Automotive emulator" /><figcaption>Rules and their enabled state</figcaption></figure>
-  <figure class="mg4-shot"><img src={detail.src} alt="MG4 Tasker rule editor showing conditions and actions" /><figcaption>A readable rule sequence</figcaption></figure>
-  <figure class="mg4-shot"><img src={config.src} alt="MG4 Tasker configuration screen" /><figcaption>Local service configuration</figcaption></figure>
+  <figure class="mg4-shot"><img src={rules.src} alt="EVTasker rules list on the Automotive emulator" /><figcaption>Rules and their enabled state</figcaption></figure>
+  <figure class="mg4-shot"><img src={detail.src} alt="EVTasker rule editor showing conditions and actions" /><figcaption>A readable rule sequence</figcaption></figure>
+  <figure class="mg4-shot"><img src={config.src} alt="EVTasker configuration screen" /><figcaption>Local service configuration</figcaption></figure>
 </div>
 
 ## How a rule works
@@ -24,20 +24,20 @@ A rule combines a trigger, optional conditions, and one or more actions. For exa
 charging-state condition can show a notification. Advanced rules can branch, wait, open an
 app, speak a message, or change a supported vehicle setting.
 
-You can use Tasker without MG4 Control. Control is needed only when a rule applies a profile
-that was saved in Control.
+You can use Tasker without EVProfile. EVProfile is needed only when a rule applies a profile
+that was saved in EVProfile.
 
 ## What to expect
 
 Test a rule while parked before enabling it. Vehicle changes follow the same standstill
-safety checks as MG4 Control, and the history screen shows what ran or why it was refused.
+safety checks as EVProfile, and the history screen shows what ran or why it was refused.
 
-Start with [Write your first rule](/MG4Suite/tutorial/first-rule/). Test it while parked,
+Start with [Write your first rule](/EVSuite/tutorial/first-rule/). Test it while parked,
 inspect its execution history, and only then enable it for normal use.
 
 ## Go further
 
-- [Add conditions, actions, and IF / ELSE IF / ELSE cases](/MG4Suite/tutorial/tasker-rules/)
-- [Run the on-vehicle diagnostic](/MG4Suite/tutorial/tasker-rules/#validate-capabilities-on-the-car)
-- [See every supported condition and action](/MG4Suite/reference/tasker-catalogue/)
-- [Use profiles shared by MG4 Control](/MG4Suite/tutorial/control-tasker/)
+- [Add conditions, actions, and IF / ELSE IF / ELSE cases](/EVSuite/tutorial/tasker-rules/)
+- [Run the on-vehicle diagnostic](/EVSuite/tutorial/tasker-rules/#validate-capabilities-on-the-car)
+- [See every supported condition and action](/EVSuite/reference/tasker-catalogue/)
+- [Use profiles shared by EVProfile](/EVSuite/tutorial/profile-tasker/)

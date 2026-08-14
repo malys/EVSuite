@@ -1,11 +1,11 @@
 ---
-title: MG4Hardware library
+title: EVHardware library
 description: Shared, firmware-aware vehicle access and safety policy for MG4 applications.
 ---
 
-[Source code](https://github.com/malys/MG4Hardware) · [Releases](https://github.com/malys/MG4Hardware/releases) · [Issue tracker](https://github.com/malys/MG4Hardware/issues)
+[Source code](https://github.com/malys/EVHardware) · [Releases](https://github.com/malys/EVHardware/releases) · [Issue tracker](https://github.com/malys/EVHardware/issues)
 
-MG4Hardware is a developer library, not an APK. It is the suite's source of truth for
+EVHardware is a developer library, not an APK. It is the suite's source of truth for
 vehicle-property access, supported firmware generations, condition and action catalogues,
 diagnostics, and safety gates.
 
@@ -18,5 +18,5 @@ diagnostics, and safety gates.
 - Vehicle writes are serialized so multi-step sequences cannot interleave.
 - Refusal and failure results are structured for apps to show to the user.
 
-Applications track the head of MG4Hardware `master`. A library change is released first;
+Applications track the head of EVHardware `master`. A library change is released first;
 each consuming app then updates its submodule pointer and proves it still builds and tests.

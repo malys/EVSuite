@@ -1,12 +1,12 @@
 ---
 title: Create your first rule
-description: Build and test a small MG4 Tasker rule without changing a safety system.
+description: Build and test a small EVTasker rule without changing a safety system.
 ---
 
 Start with a local, reversible action such as a notification. This proves the rule engine
 and timing without writing a vehicle setting.
 
-1. Open MG4 Tasker while parked and create a rule.
+1. Open EVTasker while parked and create a rule.
 2. Give it a specific name, such as **Notify when charging starts**.
 3. Choose the charging-state condition available for your firmware.
 4. Add a notification action with a short message.

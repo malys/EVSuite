@@ -1,29 +1,29 @@
 ---
 title: Set up the launchers
-description: Configure MG4 Simple Launcher and the optional swipe shortcut safely.
+description: Configure EVLauncher and the optional swipe shortcut safely.
 ---
 
-MG4 Simple Launcher and MG4 Swipe Launcher solve different problems. Simple Launcher
-replaces the Home screen; Swipe Launcher adds bottom-edge shortcuts. You can install either
+EVLauncher and EVSwipe solve different problems. EVLauncher
+replaces the Home screen; EVSwipe adds bottom-edge shortcuts. You can install either
 one by itself or use them together.
 
-When installing the suite, install **MG4 Swipe Launcher last**. On first launch it discovers
-an already-installed MG4 Simple Launcher automatically and selects it as the default swipe
-target. If stable and unstable copies coexist, verify which Simple Launcher copy is selected.
+When installing the suite, install **EVSwipe last**. On first launch it discovers
+an already-installed EVLauncher automatically and selects it as the default swipe
+target. If stable and unstable copies coexist, verify which EVLauncher copy is selected.
 
-## Simple Launcher
+## EVLauncher
 
-1. Install MG4 Simple Launcher and open it as an ordinary app first.
+1. Install EVLauncher and open it as an ordinary app first.
 2. Add the applications you need, including Files and Settings access.
 3. Test the all-apps drawer and second page.
-4. Press Home and select MG4 Simple Launcher only after the recovery paths work.
+4. Press Home and select EVLauncher only after the recovery paths work.
 5. Keep the stock launcher installed.
 
-## Swipe Launcher
+## EVSwipe
 
-1. Finish installing and configuring MG4 Simple Launcher and the other suite apps.
-2. Install MG4 Swipe Launcher last and open it.
-3. Confirm that it discovered MG4 Simple Launcher as the target. Select it manually if you
+1. Finish installing and configuring EVLauncher and the other suite apps.
+2. Install EVSwipe last and open it.
+3. Confirm that it discovered EVLauncher as the target. Select it manually if you
    use another channel or want another app.
 4. Grant only the accessibility and overlay access its setup screen requests.
 5. Test the Back and Open zones while parked.

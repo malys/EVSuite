@@ -1,9 +1,9 @@
 ---
 title: Install an APK
-description: Transfer and install a signed MG4Suite release while parked.
+description: Transfer and install a signed EVSuite release while parked.
 ---
 
-Use this guide after you can [open Android Settings](/MG4Suite/tutorial/settings-access/).
+Use this guide after you can [open Android Settings](/EVSuite/tutorial/settings-access/).
 You need the stable APK from the selected application's GitHub Releases page and a USB drive.
 
 1. Open the application's GitHub **Releases** page on another trusted device.
@@ -22,10 +22,10 @@ match. If release notes require a one-time uninstall, settings stored inside tha
 be lost.
 :::
 
-If you install several MG4Suite apps, install and configure **MG4 Swipe Launcher last**.
-When it first opens, it automatically discovers MG4 Simple Launcher if Simple Launcher is
+If you install several EVSuite apps, install and configure **EVSwipe last**.
+When it first opens, it automatically discovers EVLauncher if EVLauncher is
 already present.
 
 When finished, remove the USB drive and disable unnecessary installation permissions.
 
-Next: [understand release channels and migrations](/MG4Suite/tutorial/release-channels/).
+Next: [understand release channels and migrations](/EVSuite/tutorial/release-channels/).

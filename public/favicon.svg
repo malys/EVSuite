@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="28" viewBox="0 0 150 28" role="img" aria-label="MG4Suite">
-  <!-- Wordmark, not a raster logo: the same MG / 4 / name split the app topbars use.
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="28" viewBox="0 0 150 28" role="img" aria-label="EVSuite">
+  <!-- Wordmark, not a raster logo: the same EV / name split the app topbars use.
        currentColor carries the theme, so it stays legible in light and dark. -->
-  <text x="0" y="21" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="22" font-weight="700" fill="currentColor">MG</text>
-  <text x="35" y="21" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="22" font-weight="700" fill="#E0424C">4</text>
-  <text x="50" y="21" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="22" font-weight="400" fill="currentColor" opacity="0.78">Suite</text>
+  <text x="0" y="21" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="22" font-weight="700" fill="currentColor">EV</text>
+  <text x="31" y="21" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="22" font-weight="400" fill="#E0424C">Suite</text>
 </svg>

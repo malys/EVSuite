@@ -1,12 +1,12 @@
 ---
 title: Tasker conditions and actions
-description: The complete MG4 Tasker catalogue, with purpose and firmware-availability guidance.
+description: The complete EVTasker catalogue, with purpose and firmware-availability guidance.
 ---
 
-MG4 Tasker shows only entries supported by the detected firmware. A dash in the source
+EVTasker shows only entries supported by the detected firmware. A dash in the source
 compatibility matrix means an app-local feature that does not depend on vehicle firmware;
 it does not mean unsupported. Runtime support still depends on the services and hardware
-present in the car, so use the [on-vehicle diagnostic](/MG4Suite/tutorial/tasker-rules/#validate-capabilities-on-the-car)
+present in the car, so use the [on-vehicle diagnostic](/EVSuite/tutorial/tasker-rules/#validate-capabilities-on-the-car)
 before relying on a rule.
 
 ## Conditions
@@ -71,8 +71,8 @@ does not send execution into an ELSE branch.
 | Navigate to | Opens an available navigation app with coordinates, a place, or an address |
 | Call webhook | Sends an HTTPS GET or POST request; POST may include JSON |
 | Wait | Pauses the ordered sequence for 1–60 seconds without touching the vehicle |
-| Apply a profile | Applies a saved MG4 Control profile through the protected bridge |
-| Ask for a profile | Opens the MG4 Control profile picker |
+| Apply a profile | Applies a saved EVProfile profile through the protected bridge |
+| Ask for a profile | Opens the EVProfile profile picker |
 | Drive mode | Selects a supported drive mode |
 | Regeneration | Selects a regeneration level |
 | One pedal driving | Enables or disables one-pedal driving |
@@ -136,6 +136,6 @@ unreadable. The catalogue deliberately contains no vehicle-power-off action.
 - Lane-departure sound and vibration: SWI132.
 - Fine audio controls: SWI69, SWI131, and SWI132.
 
-The authoritative per-entry grid is generated from MG4Hardware annotations and is available
-in the [firmware compatibility matrix](https://github.com/malys/MG4Tasker/blob/master/MG4Hardware/docs/firmware-matrix.md).
+The authoritative per-entry grid is generated from EVHardware annotations and is available
+in the [firmware compatibility matrix](https://github.com/malys/EVTasker/blob/master/EVHardware/docs/firmware-matrix.md).
 The diagnostic remains the source of truth for the connected vehicle.

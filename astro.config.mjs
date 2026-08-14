@@ -6,17 +6,17 @@ const repo = 'https://github.com/malys';
 
 export default defineConfig({
   site: 'https://malys.github.io',
-  base: '/MG4Suite',
+  base: '/EVSuite',
   integrations: [
     starlight({
-      title: 'MG4Suite',
+      title: 'EVSuite',
       description:
         'Optional applications for the SAIC MG4 infotainment system running Android Automotive OS 9.',
       logo: { src: './src/assets/logo.svg', replacesTitle: true },
       favicon: '/favicon.svg',
       customCss: ['./src/styles/tokens.css'],
-      social: [{ icon: 'github', label: 'GitHub', href: `${repo}/MG4Suite` }],
-      editLink: { baseUrl: `${repo}/MG4Suite/edit/main/site/` },
+      social: [{ icon: 'github', label: 'GitHub', href: `${repo}/EVSuite` }],
+      editLink: { baseUrl: `${repo}/EVSuite/edit/main/site/` },
       lastUpdated: true,
       sidebar: [
         { label: 'Start here', items: [
@@ -24,18 +24,18 @@ export default defineConfig({
           { label: 'Before you install', slug: 'start/safety' },
         ]},
         { label: 'Applications', items: [
-          { label: 'Control vehicle settings', slug: 'apps/control' },
+          { label: 'Control vehicle settings', slug: 'apps/profile' },
           { label: 'Automate actions', slug: 'apps/tasker' },
           { label: 'Send data to ABRP', slug: 'apps/abrp' },
-          { label: 'Replace the home screen', slug: 'apps/simple-launcher' },
-          { label: 'Add swipe shortcuts', slug: 'apps/swipe-launcher' },
+          { label: 'Replace the home screen', slug: 'apps/launcher' },
+          { label: 'Add swipe shortcuts', slug: 'apps/swipe' },
         ]},
         { label: 'How-to guides', items: [
           { label: 'Open Android Settings', slug: 'tutorial/settings-access' },
           { label: 'Install an APK', slug: 'tutorial/sideload' },
           { label: 'Switch release channels', slug: 'tutorial/release-channels' },
-          { label: 'Create a driving profile', slug: 'tutorial/control-profile' },
-          { label: 'Connect Control and Tasker', slug: 'tutorial/control-tasker' },
+          { label: 'Create a driving profile', slug: 'tutorial/profile' },
+          { label: 'Connect EVProfile and EVTasker', slug: 'tutorial/profile-tasker' },
           { label: 'Connect ABRP', slug: 'tutorial/abrp' },
           { label: 'Create your first rule', slug: 'tutorial/first-rule' },
           { label: 'Build advanced rules', slug: 'tutorial/tasker-rules' },

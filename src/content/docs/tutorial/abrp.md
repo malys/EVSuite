@@ -1,15 +1,15 @@
 ---
 title: Connect ABRP
-description: Connect MG4 ABRP Uploader to your own A Better Routeplanner vehicle.
+description: Connect EVABRPUploader to your own A Better Routeplanner vehicle.
 ---
 
-Use this guide after installing MG4 ABRP Uploader. You need an ABRP account and an MG4
+Use this guide after installing EVABRPUploader. You need an ABRP account and an MG4
 vehicle configured in A Better Routeplanner.
 
 1. Create or select your MG4 in A Better Routeplanner.
 2. In ABRP, open **Settings → Connections → Generic (Manual Entry)** and copy the user token
    for that vehicle.
-3. Install and open MG4 ABRP Uploader while parked.
+3. Install and open EVABRPUploader while parked.
 4. In the **ABRP** tab, keep the supplied open-source **ABRP API Key**, or replace it with
    your own ABRP API key if you have one.
 5. Paste the vehicle's **ABRP User Token** in the separate token field. The API key identifies

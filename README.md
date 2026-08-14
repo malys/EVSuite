@@ -1,8 +1,8 @@
-# MG4Suite website
+# EVSuite website
 
 Static documentation and product site built with [Astro](https://astro.build/) and
 [Starlight](https://starlight.astro.build/). The production build is deployed to GitHub
-Pages at <https://malys.github.io/MG4Suite/>.
+Pages at <https://malys.github.io/EVSuite/>.
 
 ```sh
 npm ci

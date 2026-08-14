@@ -1,16 +1,16 @@
 ---
 title: Create a driving profile
-description: Save a group of supported MG4 Control settings and apply it again later.
+description: Save a group of supported EVProfile settings and apply it again later.
 ---
 
-Use this guide after installing MG4 Control. A profile stores several supported settings so
+Use this guide after installing EVProfile. A profile stores several supported settings so
 you can apply the same combination again with one action.
 
 :::caution[Park before changing settings]
-MG4 Control refuses road-behaviour changes unless it can confirm the car is at 0 km/h.
+EVProfile refuses road-behaviour changes unless it can confirm the car is at 0 km/h.
 :::
 
-1. Open **MG4 Control** and check the firmware shown in the top bar.
+1. Open **EVProfile** and check the firmware shown in the top bar.
 2. On the dashboard, choose the driving, regeneration, comfort, or assistance settings you
    want to save.
 3. Open **Profiles** in the top bar.
@@ -20,6 +20,6 @@ MG4 Control refuses road-behaviour changes unless it can confirm the car is at 0
 6. Select the saved profile and apply it while parked.
 7. Check the visible result and any refusal message before relying on the profile.
 
-MG4 Control stores up to five profiles. If you enable automatic application in Settings,
-test the selected default profile carefully before your next drive. When MG4 Tasker manages
+EVProfile stores up to five profiles. If you enable automatic application in Settings,
+test the selected default profile carefully before your next drive. When EVTasker manages
 automation, keep profile timing there instead of configuring two competing automations.

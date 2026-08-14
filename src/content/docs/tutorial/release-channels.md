@@ -16,10 +16,10 @@ This separation is useful for testing, but it means configuration is not shared.
 each installed copy: ABRP credentials, Tasker rules, launcher favourites, accessibility
 access, overlay access, defaults, and other app settings belong only to that copy.
 
-:::note[MG4 Control variants]
-MG4 Control currently publishes online and offline release variants instead of the common
-stable/unstable pair. They also have distinct IDs (`com.mg4.control` and
-`com.mg4.control.offline`) and can coexist, with separate configuration.
+:::note[EVProfile variants]
+EVProfile currently publishes online and offline release variants instead of the common
+stable/unstable pair. They also have distinct IDs (`com.evsuite.profile` and
+`com.evsuite.profile.offline`) and can coexist, with separate configuration.
 :::
 
 ## Move from unstable to stable
@@ -41,9 +41,9 @@ and overlay selections.
 
 ## Recommended suite installation order
 
-1. Install the vehicle or telemetry apps you need: MG4 Control, MG4 Tasker, and MG4 ABRP
+1. Install the vehicle or telemetry apps you need: EVProfile, EVTasker, and EVABRPUploader
    Uploader.
-2. Install and configure MG4 Simple Launcher, including a tested route to Files and Settings.
-3. Install **MG4 Swipe Launcher last**. At first open it automatically discovers an installed
-   MG4 Simple Launcher; confirm the correct channel before granting accessibility and overlay
+2. Install and configure EVLauncher, including a tested route to Files and Settings.
+3. Install **EVSwipe last**. At first open it automatically discovers an installed
+   EVLauncher; confirm the correct channel before granting accessibility and overlay
    access.

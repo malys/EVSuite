@@ -4,17 +4,17 @@ description: How suite applications share vehicle access without becoming one mo
 ---
 
 ```text
-MG4 Control ─────┐
-                 ├── MG4Hardware ── Android car and SAIC runtime services
-MG4 Tasker ──────┤
+EVProfile ─────┐
+                 ├── EVHardware ── Android car and SAIC runtime services
+EVTasker ──────┤
                  │
-MG4 ABRP Uploader┘
+EVABRPUploader┘
 
-MG4 Simple Launcher    no vehicle access
-MG4 Swipe Launcher     no vehicle access
+EVLauncher    no vehicle access
+EVSwipe     no vehicle access
 ```
 
-MG4Hardware owns firmware dispatch, vehicle primitives, the rule catalogue, diagnostics,
+EVHardware owns firmware dispatch, vehicle primitives, the rule catalogue, diagnostics,
 and safety gates. The apps own interaction and orchestration. They do not copy raw property
 IDs, Binder transactions, or safety decisions from the library.
 

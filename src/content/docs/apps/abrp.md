@@ -1,13 +1,13 @@
 ---
-title: MG4 ABRP Uploader
+title: EVABRPUploader
 description: Read-only telemetry for A Better Routeplanner.
 ---
 
-![MG4 ABRP Uploader configuration on the Automotive emulator](../../../assets/screenshots/abrp-dashboard.png)
+![EVABRPUploader configuration on the Automotive emulator](../../../assets/screenshots/abrp-dashboard.png)
 
-[Source code](https://github.com/malys/MG4AbrpUploader) · [Releases](https://github.com/malys/MG4AbrpUploader/releases) · [Issue tracker](https://github.com/malys/MG4AbrpUploader/issues)
+[Source code](https://github.com/malys/EVABRPUploader) · [Releases](https://github.com/malys/EVABRPUploader/releases) · [Issue tracker](https://github.com/malys/EVABRPUploader/issues)
 
-Choose MG4 ABRP Uploader when you use A Better Routeplanner and want it to receive live data
+Choose EVABRPUploader when you use A Better Routeplanner and want it to receive live data
 from the car. The app reads telemetry and location, sends available values to ABRP, and
 never changes a vehicle setting.
 
@@ -25,5 +25,5 @@ want live telemetry sent.
 
 ## Get started
 
-1. [Install the APK](/MG4Suite/tutorial/sideload/).
-2. [Add your API key and user token, then understand upload errors](/MG4Suite/tutorial/abrp/).
+1. [Install the APK](/EVSuite/tutorial/sideload/).
+2. [Add your API key and user token, then understand upload errors](/EVSuite/tutorial/abrp/).

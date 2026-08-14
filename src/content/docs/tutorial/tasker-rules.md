@@ -43,10 +43,10 @@ selects the event stream that triggers the rule.
 
 ## Validate capabilities on the car
 
-1. Park, open MG4 Tasker, and select the **Diagnostic** tab.
+1. Park, open EVTasker, and select the **Diagnostic** tab.
 2. Choose **Refresh**. If support data is stale, choose **Check support**.
 3. Review **Execution context** first: vehicle layer, service, automation, notifications,
-   standstill gate, MG4 Control bridge, speech engine, and Bluetooth.
+   standstill gate, EVProfile bridge, speech engine, and Bluetooth.
 4. Review **Conditions**. Each entry shows the current value or why it is unreadable.
 5. Review **Actions**. Each entry shows whether its prerequisites pass on this firmware and
    vehicle right now.
@@ -57,5 +57,5 @@ The diagnostic validates conditions and pre-write action checks against the real
 It deliberately does **not** perform vehicle writes. “Can run” means all checks before the
 write passed; the manual test and History confirm whether the vehicle accepted it.
 
-See [Supported Tasker conditions and actions](/MG4Suite/reference/tasker-catalogue/) for the
+See [Supported Tasker conditions and actions](/EVSuite/reference/tasker-catalogue/) for the
 complete catalogue and firmware notes.

@@ -5,17 +5,17 @@ description: Source, releases, issues, security policy, and suite resources.
 
 | Project | Source | Releases | Issues |
 | --- | --- | --- | --- |
-| MG4Suite | [Repository](https://github.com/malys/MG4Suite) | [Releases](https://github.com/malys/MG4Suite/releases) | [Issues](https://github.com/malys/MG4Suite/issues) |
-| MG4Hardware | [Repository](https://github.com/malys/MG4Hardware) | [Releases](https://github.com/malys/MG4Hardware/releases) | [Issues](https://github.com/malys/MG4Hardware/issues) |
-| MG4 Control | [Repository](https://github.com/malys/MG4Control) | [Releases](https://github.com/malys/MG4Control/releases) | [Issues](https://github.com/malys/MG4Control/issues) |
-| MG4 Tasker | [Repository](https://github.com/malys/MG4Tasker) | [Releases](https://github.com/malys/MG4Tasker/releases) | [Issues](https://github.com/malys/MG4Tasker/issues) |
-| MG4 ABRP Uploader | [Repository](https://github.com/malys/MG4AbrpUploader) | [Releases](https://github.com/malys/MG4AbrpUploader/releases) | [Issues](https://github.com/malys/MG4AbrpUploader/issues) |
-| MG4 Simple Launcher | [Repository](https://github.com/malys/MG4SimpleLauncher) | [Releases](https://github.com/malys/MG4SimpleLauncher/releases) | [Issues](https://github.com/malys/MG4SimpleLauncher/issues) |
-| MG4 Swipe Launcher | [Repository](https://github.com/malys/MG4SwipeLauncher) | [Releases](https://github.com/malys/MG4SwipeLauncher/releases) | [Issues](https://github.com/malys/MG4SwipeLauncher/issues) |
+| EVSuite | [Repository](https://github.com/malys/EVSuite) | [Releases](https://github.com/malys/EVSuite/releases) | [Issues](https://github.com/malys/EVSuite/issues) |
+| EVHardware | [Repository](https://github.com/malys/EVHardware) | [Releases](https://github.com/malys/EVHardware/releases) | [Issues](https://github.com/malys/EVHardware/issues) |
+| EVProfile | [Repository](https://github.com/malys/EVProfile) | [Releases](https://github.com/malys/EVProfile/releases) | [Issues](https://github.com/malys/EVProfile/issues) |
+| EVTasker | [Repository](https://github.com/malys/EVTasker) | [Releases](https://github.com/malys/EVTasker/releases) | [Issues](https://github.com/malys/EVTasker/issues) |
+| EVABRPUploader | [Repository](https://github.com/malys/EVABRPUploader) | [Releases](https://github.com/malys/EVABRPUploader/releases) | [Issues](https://github.com/malys/EVABRPUploader/issues) |
+| EVLauncher | [Repository](https://github.com/malys/EVLauncher) | [Releases](https://github.com/malys/EVLauncher/releases) | [Issues](https://github.com/malys/EVLauncher/issues) |
+| EVSwipe | [Repository](https://github.com/malys/EVSwipe) | [Releases](https://github.com/malys/EVSwipe/releases) | [Issues](https://github.com/malys/EVSwipe/issues) |
 
 ## Suite resources
 
-- [Shared design system](https://github.com/malys/MG4Suite/blob/main/DESIGN.md)
-- [Security policy](https://github.com/malys/MG4Suite/blob/main/SECURITY.md)
-- [Contributing](https://github.com/malys/MG4Suite/blob/main/CONTRIBUTING.md)
-- [MIT License](https://github.com/malys/MG4Suite/blob/main/LICENSE)
+- [Shared design system](https://github.com/malys/EVSuite/blob/main/DESIGN.md)
+- [Security policy](https://github.com/malys/EVSuite/blob/main/SECURITY.md)
+- [Contributing](https://github.com/malys/EVSuite/blob/main/CONTRIBUTING.md)
+- [MIT License](https://github.com/malys/EVSuite/blob/main/LICENSE)
