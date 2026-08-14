@@ -16,12 +16,6 @@ This separation is useful for testing, but it means configuration is not shared.
 each installed copy: ABRP credentials, Tasker rules, launcher favourites, accessibility
 access, overlay access, defaults, and other app settings belong only to that copy.
 
-:::note[EVProfile variants]
-EVProfile currently publishes online and offline release variants instead of the common
-stable/unstable pair. They also have distinct IDs (`com.evsuite.profile` and
-`com.evsuite.profile.offline`) and can coexist, with separate configuration.
-:::
-
 ## Move from unstable to stable
 
 1. Park the vehicle and disable automation or background services in the unstable copy.

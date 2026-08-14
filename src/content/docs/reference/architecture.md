@@ -23,5 +23,5 @@ supported generation because service export, caller authentication, and readable
 can differ.
 
 The suite is intentionally not a super-app. Each APK retains a narrow capability boundary,
-its own releases, and its own permissions. Stable/offline variants exclude updater code and
+its own releases, and its own permissions. Stable variants exclude updater code and
 network permission by construction, except where network access is the core function.
