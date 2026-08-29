@@ -29,6 +29,7 @@ export default defineConfig({
           { label: 'Send data to ABRP', slug: 'apps/abrp' },
           { label: 'Replace the home screen', slug: 'apps/launcher' },
           { label: 'Add swipe shortcuts', slug: 'apps/swipe' },
+          { label: 'Watch energy and trips', slug: 'apps/chargepilot' },
         ]},
         { label: 'How-to guides', items: [
           { label: 'Open Android Settings', slug: 'tutorial/settings-access' },

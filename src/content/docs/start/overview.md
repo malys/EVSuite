@@ -12,6 +12,7 @@ You do not need to install every EVSuite app. Start with the result you want:
 | Send live vehicle data to A Better Routeplanner | [EVABRPUploader](/EVSuite/apps/abrp/) | Reads telemetry and sends it to ABRP; never changes the vehicle |
 | Replace the original home screen with large app shortcuts | [EVLauncher](/EVSuite/apps/launcher/) | Changes which app Android opens as Home; no vehicle access |
 | Open an app or go Back with a bottom-edge swipe | [EVSwipe](/EVSuite/apps/swipe/) | Uses accessibility and overlay access; no vehicle access |
+| Watch battery, range and consumption, and record trips | [EVChargePilot](/EVSuite/apps/chargepilot/) | Reads telemetry and stores trips on the head unit; never changes the vehicle, never uses the network |
 
 ## Common combinations
 

@@ -12,6 +12,7 @@ description: Source, releases, issues, security policy, and suite resources.
 | EVABRPUploader | [Repository](https://github.com/malys/EVABRPUploader) | [Releases](https://github.com/malys/EVABRPUploader/releases) | [Issues](https://github.com/malys/EVABRPUploader/issues) |
 | EVLauncher | [Repository](https://github.com/malys/EVLauncher) | [Releases](https://github.com/malys/EVLauncher/releases) | [Issues](https://github.com/malys/EVLauncher/issues) |
 | EVSwipe | [Repository](https://github.com/malys/EVSwipe) | [Releases](https://github.com/malys/EVSwipe/releases) | [Issues](https://github.com/malys/EVSwipe/issues) |
+| EVChargePilot | [Repository](https://github.com/malys/EVChargePilot) | [Releases](https://github.com/malys/EVChargePilot/releases) | [Issues](https://github.com/malys/EVChargePilot/issues) |
 
 ## Suite resources
 
