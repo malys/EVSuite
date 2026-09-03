@@ -11,7 +11,7 @@ before relying on a rule.
 
 The authoritative per-entry list is
 [generated from the catalogue enums](https://github.com/malys/EVTasker/blob/master/EVHardware/docs/catalogue.md)
-by a test that fails on a stale copy, and the per-generation grid beside it is the
+and regenerated on every test run, and the per-generation grid beside it is the
 [firmware compatibility matrix](https://github.com/malys/EVTasker/blob/master/EVHardware/docs/firmware-matrix.md).
 This page follows them.
 
