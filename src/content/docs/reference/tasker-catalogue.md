@@ -31,8 +31,6 @@ This page follows them.
 | Firmware generation | Matches SWI68, SWI69, SWI131, SWI132, SWI133, or SWI165 |
 | Near a place | Compares the last known vehicle position with a saved point and radius |
 | Physical buttons | Matches a short or long press on phone, centre, directional/OK, source, volume, track, mute, star, or assistant buttons |
-| Media playing | Tests whether anything is coming out of the speakers, whichever app plays it |
-| Radio playing | Tests whether the **tuner** is playing — a different question from the one above |
 | Wi-Fi network | Matches the name of the network the head unit has joined |
 | Call in progress | Tests whether the head unit has taken the call audio route |
 | Drive duration | Compares the minutes elapsed since the ignition came on |
@@ -47,7 +45,7 @@ This page follows them.
 | Condition | Description |
 | --- | --- |
 | Outside temperature | Compares the reported exterior temperature |
-| Weather | Matches a fragment of what the head unit's weather service reports, in its own language |
+| Weather | Matches the sky where the car is, picked from a list: clear, cloudy, rain, snow, thunderstorm, fog, or wind |
 
 ### Driving
 
@@ -100,8 +98,15 @@ This page follows them.
 | --- | --- |
 | Left / right seat heating | Compares each front seat-heating level |
 | Steering-wheel heating | Tests steering heating |
-| Media volume | Compares the head unit's media volume |
 | Screen brightness | Compares display brightness |
+
+### Audio
+
+| Condition | Description |
+| --- | --- |
+| Media playing | Tests whether anything is coming out of the speakers, whichever app plays it |
+| Radio playing | Tests whether the **tuner** is playing — a different question from the one above |
+| Media volume | Compares the head unit's media volume |
 
 ### Driver assistance
 
