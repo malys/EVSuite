@@ -8,7 +8,8 @@ description: A landscape-first replacement home screen for the MG4 head unit.
 [Source code](https://github.com/malys/EVLauncher) · [Releases](https://github.com/malys/EVLauncher/releases) · [Issue tracker](https://github.com/malys/EVLauncher/issues)
 
 Choose EVLauncher when you want the Home button to open a simple grid of your
-favourite apps. It does not read or change vehicle settings.
+favourite apps. A second page shows head-unit and vehicle metrics such as range; it
+reads them through EVHardware and never changes vehicle settings.
 
 ## What you can do
 
