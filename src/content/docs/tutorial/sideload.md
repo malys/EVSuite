@@ -3,7 +3,7 @@ title: Install an APK
 description: Transfer and install a signed EVSuite release while parked.
 ---
 
-Use this guide after you can [open Android Settings](/EVSuite/tutorial/settings-access/).
+Use this guide after you can [open Android Settings](/EVSuite_site/tutorial/settings-access/).
 You need the stable APK from the selected application's GitHub Releases page and a USB drive.
 
 1. Open the application's GitHub **Releases** page on another trusted device.
@@ -28,4 +28,4 @@ already present.
 
 When finished, remove the USB drive and disable unnecessary installation permissions.
 
-Next: [understand release channels and migrations](/EVSuite/tutorial/release-channels/).
+Next: [understand release channels and migrations](/EVSuite_site/tutorial/release-channels/).

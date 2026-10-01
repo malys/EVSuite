@@ -6,7 +6,7 @@ description: The complete EVTasker catalogue, with purpose and firmware-availabi
 Every condition a rule can test and every action it can run. EVTasker shows only the entries
 supported by the detected firmware, so this page is the full set rather than the set your car
 offers. Runtime support still depends on the services and hardware present, so use the
-[on-vehicle diagnostic](/EVSuite/tutorial/tasker-rules/#validate-capabilities-on-the-car)
+[on-vehicle diagnostic](/EVSuite_site/tutorial/tasker-rules/#validate-capabilities-on-the-car)
 before relying on a rule.
 
 The authoritative per-entry list is

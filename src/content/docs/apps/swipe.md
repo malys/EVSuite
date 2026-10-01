@@ -22,4 +22,4 @@ Back. It does not read or change vehicle settings.
 
 It works with any chosen app and pairs well with EVLauncher.
 
-Next: [set up the swipe shortcuts](/EVSuite/tutorial/launchers/#swipe-launcher).
+Next: [set up the swipe shortcuts](/EVSuite_site/tutorial/launchers/#swipe-launcher).

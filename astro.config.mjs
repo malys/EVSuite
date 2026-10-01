@@ -6,7 +6,7 @@ const repo = 'https://github.com/malys';
 
 export default defineConfig({
   site: 'https://malys.github.io',
-  base: '/EVSuite',
+  base: '/EVSuite_site',
   integrations: [
     starlight({
       title: 'EVSuite',
@@ -15,8 +15,7 @@ export default defineConfig({
       logo: { src: './src/assets/logo.svg', replacesTitle: true },
       favicon: '/favicon.svg',
       customCss: ['./src/styles/tokens.css'],
-      social: [{ icon: 'github', label: 'GitHub', href: `${repo}/EVSuite` }],
-      editLink: { baseUrl: `${repo}/EVSuite/edit/main/site/` },
+      social: [{ icon: 'github', label: 'GitHub', href: repo }],
       lastUpdated: true,
       sidebar: [
         { label: 'Start here', items: [

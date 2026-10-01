@@ -26,4 +26,4 @@ between firmware versions, so some tiles may stay empty on your vehicle.
 Trip history is stored on the head unit only. Nothing is uploaded, and neither channel
 self-updates: a newer build is always a manual install, parked.
 
-Next: [install an APK](/EVSuite/tutorial/sideload/).
+Next: [install an APK](/EVSuite_site/tutorial/sideload/).

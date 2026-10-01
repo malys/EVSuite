@@ -5,7 +5,6 @@ description: Source, releases, issues, security policy, and suite resources.
 
 | Project | Source | Releases | Issues | License |
 | --- | --- | --- | --- | --- |
-| EVSuite | [Repository](https://github.com/malys/EVSuite) | [Releases](https://github.com/malys/EVSuite/releases) | [Issues](https://github.com/malys/EVSuite/issues) | MIT |
 | EVHardware | [Repository](https://github.com/malys/EVHardware) | [Releases](https://github.com/malys/EVHardware/releases) | [Issues](https://github.com/malys/EVHardware/issues) | PolyForm Noncommercial |
 | EVProfile | [Repository](https://github.com/malys/EVProfile) | [Releases](https://github.com/malys/EVProfile/releases) | [Issues](https://github.com/malys/EVProfile/issues) | MIT |
 | EVTasker | [Repository](https://github.com/malys/EVTasker) | [Releases](https://github.com/malys/EVTasker/releases) | [Issues](https://github.com/malys/EVTasker/issues) | PolyForm Noncommercial |
@@ -16,8 +15,8 @@ description: Source, releases, issues, security policy, and suite resources.
 
 ## Suite resources
 
-- [Shared design system](https://github.com/malys/EVSuite/blob/main/DESIGN.md)
+- [Shared design system](https://github.com/malys/EVTasker/blob/master/DESIGN.md)
 - Security policy: see `SECURITY.md` in each component repository
-- [Contributing](https://github.com/malys/EVSuite/blob/main/CONTRIBUTING.md)
-- [Suite licence (MIT)](https://github.com/malys/EVSuite/blob/main/LICENSE) — components carry their own, listed above
-- [Disclaimer](https://github.com/malys/EVSuite/blob/main/DISCLAIMER.md)
+- Contributing: see `CONTRIBUTING.md` in each component repository
+- Licences: each component carries its own, listed above
+- [Disclaimer](https://github.com/malys/EVTasker/blob/master/DISCLAIMER.md)
