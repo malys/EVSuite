@@ -25,5 +25,5 @@ want live telemetry sent.
 
 ## Get started
 
-1. [Install the APK](/EVSuite_site/tutorial/sideload/).
-2. [Add your API key and user token, then understand upload errors](/EVSuite_site/tutorial/abrp/).
+1. [Install the APK](/EVSuite/tutorial/sideload/).
+2. [Add your API key and user token, then understand upload errors](/EVSuite/tutorial/abrp/).

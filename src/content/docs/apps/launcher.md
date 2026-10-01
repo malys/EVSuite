@@ -25,4 +25,4 @@ Android will ask which app should handle the Home button. Keep the stock launche
 and confirm that Files and Settings remain reachable before making EVLauncher the
 default.
 
-Next: [set up EVLauncher](/EVSuite_site/tutorial/launchers/).
+Next: [set up EVLauncher](/EVSuite/tutorial/launchers/).

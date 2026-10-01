@@ -1,10 +1,10 @@
 # EVSuite site
 
-[![Pages](https://github.com/malys/EVSuite_site/actions/workflows/pages.yml/badge.svg)](https://github.com/malys/EVSuite_site/actions/workflows/pages.yml)
-[![Website](https://img.shields.io/badge/website-malys.github.io%2FEVSuite__site-2f81f7)](https://malys.github.io/EVSuite_site/)
+[![Pages](https://github.com/malys/EVSuite/actions/workflows/pages.yml/badge.svg)](https://github.com/malys/EVSuite/actions/workflows/pages.yml)
+[![Website](https://img.shields.io/badge/website-malys.github.io%2FEVSuite-2f81f7)](https://malys.github.io/EVSuite/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Source of the EVSuite documentation site, <https://malys.github.io/EVSuite_site/>, built with
+Source of the EVSuite documentation site, <https://malys.github.io/EVSuite/>, built with
 [Astro](https://astro.build/) and [Starlight](https://starlight.astro.build/). Included in the
 EVSuite workspace as the `site/` submodule.
 
@@ -24,7 +24,7 @@ npm run build   # static output in dist/
 ```
 
 Pages live in `src/content/docs/`; the sidebar is declared in `astro.config.mjs`. Internal
-links carry the `/EVSuite_site/` base path.
+links carry the `/EVSuite/` base path.
 
 ## Screenshots
 

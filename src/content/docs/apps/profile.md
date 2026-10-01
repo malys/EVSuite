@@ -30,15 +30,15 @@ is available on a particular car.
 
 ## Get started
 
-1. [Read the installation safety notes](/EVSuite_site/start/safety/).
+1. [Read the installation safety notes](/EVSuite/start/safety/).
 2. Download a signed stable APK from [EVProfile Releases](https://github.com/malys/EVProfile/releases).
-3. [Install the APK on the head unit](/EVSuite_site/tutorial/sideload/).
+3. [Install the APK on the head unit](/EVSuite/tutorial/sideload/).
 4. Open EVProfile while parked and review the detected firmware before changing a setting.
-5. [Create and test your first driving profile](/EVSuite_site/tutorial/profile/).
+5. [Create and test your first driving profile](/EVSuite/tutorial/profile/).
 
 ## Automation and shortcuts
 
 EVProfile can hand a saved profile to EVTasker, and can assign actions to short, long,
 or double presses of the steering-wheel star buttons. Follow
-[Connect EVProfile and EVTasker](/EVSuite_site/tutorial/profile-tasker/) to avoid duplicate
+[Connect EVProfile and EVTasker](/EVSuite/tutorial/profile-tasker/) to avoid duplicate
 startup automation and shortcut conflicts.

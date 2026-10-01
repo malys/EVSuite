@@ -33,7 +33,7 @@ notes before upgrading.
 
 When moving from unstable to stable, install and configure stable first if you need to check
 or copy settings, then preferably uninstall unstable. Keeping both makes it easy to configure
-or launch the wrong copy. See [Switch between stable and unstable](/EVSuite_site/tutorial/release-channels/).
+or launch the wrong copy. See [Switch between stable and unstable](/EVSuite/tutorial/release-channels/).
 
 ## Vehicle-write policy
 

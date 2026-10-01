@@ -57,5 +57,5 @@ The diagnostic validates conditions and pre-write action checks against the real
 It deliberately does **not** perform vehicle writes. “Can run” means all checks before the
 write passed; the manual test and History confirm whether the vehicle accepted it.
 
-See [Supported Tasker conditions and actions](/EVSuite_site/reference/tasker-catalogue/) for the
+See [Supported Tasker conditions and actions](/EVSuite/reference/tasker-catalogue/) for the
 complete catalogue and firmware notes.

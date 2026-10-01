@@ -6,7 +6,7 @@ const repo = 'https://github.com/malys';
 
 export default defineConfig({
   site: 'https://malys.github.io',
-  base: '/EVSuite_site',
+  base: '/EVSuite',
   integrations: [
     starlight({
       title: 'EVSuite',
