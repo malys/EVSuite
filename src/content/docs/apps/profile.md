@@ -7,6 +7,11 @@ description: Manual vehicle settings and reusable driving profiles.
 
 [Source code](https://github.com/malys/EVProfile) · [Releases](https://github.com/malys/EVProfile/releases) · [Issue tracker](https://github.com/malys/EVProfile/issues)
 
+:::caution[Frozen — no new features]
+EVProfile is no longer developed. Existing releases keep working, but new vehicle settings
+arrive only in [EVTasker](/EVSuite/apps/tasker/). For new installs, use EVTasker.
+:::
+
 Choose EVProfile when you want one place to adjust supported vehicle settings or save a
 group of settings as a reusable profile.
 
