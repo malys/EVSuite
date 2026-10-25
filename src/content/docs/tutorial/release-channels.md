@@ -35,7 +35,7 @@ and overlay selections.
 
 ## Recommended suite installation order
 
-1. Install the vehicle or telemetry apps you need: EVProfile, EVTasker, and EVABRPUploader
+1. Install the vehicle or telemetry apps you need: EVTasker and EVABRPUploader
    Uploader.
 2. Install and configure EVLauncher, including a tested route to Files and Settings.
 3. Install **EVSwipe last**. At first open it automatically discovers an installed

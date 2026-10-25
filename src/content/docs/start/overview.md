@@ -7,7 +7,6 @@ You do not need to install every EVSuite app. Start with the result you want:
 
 | I want to… | Install | What it changes |
 | --- | --- | --- |
-| Adjust supported vehicle settings and save profiles | [EVProfile](/EVSuite/apps/profile/) (frozen, no new features) | Can read and change vehicle settings while parked |
 | Run actions automatically when conditions are met | [EVTasker](/EVSuite/apps/tasker/) | Can run local actions and supported vehicle changes |
 | Send live vehicle data to A Better Routeplanner | [EVABRPUploader](/EVSuite/apps/abrp/) | Reads telemetry and sends it to ABRP; never changes the vehicle |
 | Replace the original home screen with large app shortcuts | [EVLauncher](/EVSuite/apps/launcher/) | Changes which app Android opens as Home; reads battery and range on a metrics page, never changes the vehicle |
@@ -17,10 +16,7 @@ You do not need to install every EVSuite app. Start with the result you want:
 ## Common combinations
 
 - **ABRP only:** install EVABRPUploader.
-- **Vehicle settings:** install EVTasker; a rule run by hand applies a setting. EVProfile
-  still works but is frozen.
-- **Automation:** install EVTasker. Add EVProfile only if a rule needs to apply a
-  profile saved in EVProfile.
+- **Automation and vehicle settings:** install EVTasker.
 - **Simpler navigation:** install EVLauncher. Add EVSwipe if you also
   want bottom-edge shortcuts.
 

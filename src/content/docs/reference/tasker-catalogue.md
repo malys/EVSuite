@@ -129,13 +129,6 @@ does not send execution into an ELSE branch.
 
 ## Actions
 
-### Profile
-
-| Action | Description |
-| --- | --- |
-| Apply a profile | Applies a saved EVProfile profile through the protected bridge |
-| Ask for a profile | Opens the EVProfile profile picker |
-
 ### Driving
 
 | Action | Description |

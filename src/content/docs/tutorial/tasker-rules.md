@@ -46,7 +46,7 @@ selects the event stream that triggers the rule.
 1. Park, open EVTasker, and select the **Diagnostic** tab.
 2. Choose **Refresh**. If support data is stale, choose **Check support**.
 3. Review **Execution context** first: vehicle layer, service, automation, notifications,
-   standstill gate, EVProfile bridge, speech engine, and Bluetooth.
+   standstill gate, speech engine, and Bluetooth.
 4. Review **Conditions**. Each entry shows the current value or why it is unreadable.
 5. Review **Actions**. Each entry shows whether its prerequisites pass on this firmware and
    vehicle right now.

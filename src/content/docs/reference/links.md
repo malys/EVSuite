@@ -6,7 +6,6 @@ description: Source, releases, issues, security policy, and suite resources.
 | Project | Source | Releases | Issues | License |
 | --- | --- | --- | --- | --- |
 | EVHardware | [Repository](https://github.com/malys/EVHardware) | [Releases](https://github.com/malys/EVHardware/releases) | [Issues](https://github.com/malys/EVHardware/issues) | PolyForm Noncommercial |
-| EVProfile | [Repository](https://github.com/malys/EVProfile) | [Releases](https://github.com/malys/EVProfile/releases) | [Issues](https://github.com/malys/EVProfile/issues) | MIT |
 | EVTasker | [Repository](https://github.com/malys/EVTasker) | [Releases](https://github.com/malys/EVTasker/releases) | [Issues](https://github.com/malys/EVTasker/issues) | PolyForm Noncommercial |
 | EVABRPUploader | [Repository](https://github.com/malys/EVABRPUploader) | [Releases](https://github.com/malys/EVABRPUploader/releases) | [Issues](https://github.com/malys/EVABRPUploader/issues) | MIT |
 | EVLauncher | [Repository](https://github.com/malys/EVLauncher) | [Releases](https://github.com/malys/EVLauncher/releases) | [Issues](https://github.com/malys/EVLauncher/issues) | MIT |

@@ -23,7 +23,6 @@ export default defineConfig({
           { label: 'Before you install', slug: 'start/safety' },
         ]},
         { label: 'Applications', items: [
-          { label: 'Control vehicle settings', slug: 'apps/profile' },
           { label: 'Automate actions', slug: 'apps/tasker' },
           { label: 'Send data to ABRP', slug: 'apps/abrp' },
           { label: 'Replace the home screen', slug: 'apps/launcher' },
@@ -34,8 +33,6 @@ export default defineConfig({
           { label: 'Open Android Settings', slug: 'tutorial/settings-access' },
           { label: 'Install an APK', slug: 'tutorial/sideload' },
           { label: 'Switch release channels', slug: 'tutorial/release-channels' },
-          { label: 'Create a driving profile', slug: 'tutorial/profile' },
-          { label: 'Connect EVProfile and EVTasker', slug: 'tutorial/profile-tasker' },
           { label: 'Connect ABRP', slug: 'tutorial/abrp' },
           { label: 'Create your first rule', slug: 'tutorial/first-rule' },
           { label: 'Build advanced rules', slug: 'tutorial/tasker-rules' },

@@ -4,8 +4,7 @@ description: How suite applications share vehicle access without becoming one mo
 ---
 
 ```text
-EVProfile ─────┐
-EVTasker ──────┤
+EVTasker ──────┐
 EVABRPUploader ┼── EVHardware ── Android car and SAIC runtime services
 EVChargePilot ─┘
 

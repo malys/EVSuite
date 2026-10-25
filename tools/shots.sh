@@ -35,17 +35,6 @@ fi
 echo "$("$ADB" shell wm size | tr -d '\r')"
 
 case "${1:-all}" in
-  all|control)
-    start com.evsuite.profile .MainActivity
-    sleep 3
-    # The emulator firmware is unknown to EVProfile. Continue into its explicit
-    # compatibility mode so the screenshot documents the actual dashboard.
-    "$ADB" shell input tap 1775 136
-    shot profile-dashboard
-    ;;
-esac
-
-case "${1:-all}" in
   all|abrp)
     start com.evsuite.abrp .MainActivity
     shot abrp-dashboard

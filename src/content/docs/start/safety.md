@@ -37,7 +37,7 @@ or launch the wrong copy. See [Switch between stable and unstable](/EVSuite/tuto
 
 ## Vehicle-write policy
 
-EVProfile and EVTasker can change supported vehicle settings. Road-behaviour writes are
+EVTasker can change supported vehicle settings. Road-behaviour writes are
 allowed only when speed is confirmed at **0 km/h**. If speed cannot be read, the operation
 fails closed and the app must show the refusal. Multi-step writes are serialized so two
 operations cannot interleave.
